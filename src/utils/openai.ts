@@ -6,7 +6,8 @@ import { scrapper } from "./scrapper";
 
 // Configuração do cliente OpenAI
 const config = new OpenAI({
-  apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY,
+  apiKey:
+    "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",
   dangerouslyAllowBrowser: true, // Permite uso no navegador; use com cautela
 });
 
